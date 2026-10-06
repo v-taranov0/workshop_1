@@ -51,7 +51,7 @@ class CoffeeNotFoundError(CoffeeApiError):
 class SampleApisCoffeeClient:
     def __init__(
         self,
-        base_url: str = "https://api.sampleapis.com/coffee/hot",
+        base_url: str = "https://pycourse-2026.duckdns.org/coffee/hot/",
         timeout: float = 10.0,
     ) -> None:
         self._base_url = base_url.rstrip("/")
